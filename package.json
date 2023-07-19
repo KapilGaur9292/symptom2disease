@@ -1,0 +1,12 @@
+{
+  "name": "symptom2disease",
+  "version": "1.0.0",
+  "main": "app.py",
+  "scripts": {
+    "start": "flask run"
+  },
+  "dependencies": {
+    "flask": "^2.0.1"
+  }
+}
+
