@@ -1,0 +1,10 @@
+name: my-flask-app
+start: python app.py
+language: python
+port: 5000
+environment:
+  FLASK_ENV: production
+  SECRET_KEY: my_secret_key
+dependencies:
+  - Flask
+  - requests
